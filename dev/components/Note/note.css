@@ -1,0 +1,33 @@
+.note {
+	max-width: 200px;
+	width: 48%;
+	padding: 5px 20px 5px 5px;
+	border: 1px solid;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-right: 20px;
+	position: relative;
+	word-break: break-all;
+	font-size: 20px;
+}
+
+.action {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+.action button {
+	margin: 0;
+	padding: 3px;
+	border: 0;
+	background: transparent;
+}
+
+.remove {
+	color: red;
+}
+
+.edik {
+	color: green;
+}

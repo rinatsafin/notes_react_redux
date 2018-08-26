@@ -1,0 +1,16 @@
+.app {
+	display: flex;
+	flex-direction: column;
+}
+
+.textarea {
+	border-color: orange;
+}
+
+.button {
+	margin-top: 5px;
+	background-color: orange;
+	color: #fff;
+	padding: 5px;
+	border: 0;
+}

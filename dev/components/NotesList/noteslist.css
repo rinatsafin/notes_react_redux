@@ -1,0 +1,11 @@
+.app {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	flex-wrap: wrap;
+}
+
+.empty {
+	color: #ccc;
+	text-align: center;
+}

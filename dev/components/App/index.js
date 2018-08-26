@@ -1,11 +1,19 @@
 import React from "react";
 
-const App = () => {
-  return (
-    <div>
-      <p>React here!</p>
-    </div>
-  );
-};
+import NotesList from "../NotesList";
+import Form from "../Form";
+
+import "./global.css";
+import styles from "./app.css";
+
+const App = () => (
+  <div className={styles.app}>
+    <h1 className={styles.header}>
+      Notes
+    </h1>
+    <Form />
+    <NotesList />
+  </div>
+)
 
 export default App;
